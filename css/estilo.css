@@ -1,0 +1,229 @@
+/*cabeçalho*/
+header {
+    background-color: #003580;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Menus */
+.logo {
+    width: 300px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item, .nav-link {
+    margin-top: auto; 
+    margin-bottom: auto; 
+}
+
+.nav-link img {
+    width: 50px;
+}
+
+#menu2 {
+    background-color: #00204d;
+}
+
+#menu2 img {
+    width: 30px;
+}
+
+/* Menu 2 Dropdown*/
+
+.dropdown-menu, .dropdown-item {
+    background-color: #00204d;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 0%;
+}
+
+/*banner*/
+
+#section-banners img {
+    height: 350px;
+}
+
+/* Caixa de Pesquisa */
+
+#buscaimg {
+    height: 150px;
+    background-color: #003580;  
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.transp {
+    height: 150px;
+    background-color: #00358085;
+}
+
+#buscar {
+    border: 1px solid #fff;
+    padding: 5px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 35%;
+}
+
+#buscar button {
+    background-color: #ffffff00;
+    border: none;
+}
+
+#busca {
+    background-color: #ffffff00;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    width: 500px;
+    outline: none;
+}
+
+#buscar img {
+    width: 30px;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #00204d;
+}
+
+#section-vendidos img {
+    height: 250px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #00204d2a;
+}
+
+#section-vendidos .preco {
+    color: #00204d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Mostrar Mais Produtos */
+
+.mais-produtos {
+    display: none;
+}
+
+.ver-mais {
+    margin-top: 15px;
+    padding: 15px 50px;
+    background-color: #003580;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produtos.ver .mais-produtos {
+    display: inline;
+}
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+
+/*Rodapé*/
+
+footer {
+    position: block;
+    bottom: 0;
+    background-color: #003580;
+    font-family: 'Inter';
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+footer .container {
+    display: flex;
+
+}
+
+footer .logo {
+   width: 220px;
+   margin-left: 15px;
+}
+
+footer .container ul {
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer .container ul > p {
+    margin: 15px 20px;
+}
+
+.info-meio {
+    text-align: center;
+}
+
+.redes {
+    text-align: right;
+}
+
+.redes img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* página de login  */
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
