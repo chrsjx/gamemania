@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 /*cabeçalho*/
 header {
     background-color: #003580;
@@ -161,7 +167,6 @@ footer {
     position: block;
     bottom: 0;
     background-color: #003580;
-    font-family: 'Inter';
     color: #fff;
     font-weight: bold;
     width: 100%;
